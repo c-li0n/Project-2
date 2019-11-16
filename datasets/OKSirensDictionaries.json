@@ -1,0 +1,1418 @@
+{
+   "Document": {
+      "name": "Oklahoma Sirens",
+      "description": "*Excludes larger siren systems.",
+      "Style": [
+         {
+            "IconStyle": {
+               "scale": "1.1",
+               "Icon": {
+                  "href": "http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png"
+               },
+               "hotSpot": {
+                  "_x": "16",
+                  "_xunits": "pixels",
+                  "_y": "32",
+                  "_yunits": "insetPixels"
+               }
+            },
+            "LabelStyle": {
+               "scale": "0"
+            },
+            "_id": "icon-22-normal"
+         },
+         {
+            "IconStyle": {
+               "scale": "1.1",
+               "Icon": {
+                  "href": "http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png"
+               },
+               "hotSpot": {
+                  "_x": "16",
+                  "_xunits": "pixels",
+                  "_y": "32",
+                  "_yunits": "insetPixels"
+               }
+            },
+            "LabelStyle": {
+               "scale": "1.1"
+            },
+            "_id": "icon-22-highlight"
+         },
+         {
+            "IconStyle": {
+               "scale": "1.1",
+               "Icon": {
+                  "href": "http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png"
+               },
+               "hotSpot": {
+                  "_x": "16",
+                  "_xunits": "pixels",
+                  "_y": "32",
+                  "_yunits": "insetPixels"
+               }
+            },
+            "LabelStyle": {
+               "scale": "0"
+            },
+            "BalloonStyle": {
+               "text": {
+                  "__cdata": "<h3>$[name]</h3>"
+               }
+            },
+            "_id": "icon-22-nodesc-normal"
+         },
+         {
+            "IconStyle": {
+               "scale": "1.1",
+               "Icon": {
+                  "href": "http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png"
+               },
+               "hotSpot": {
+                  "_x": "16",
+                  "_xunits": "pixels",
+                  "_y": "32",
+                  "_yunits": "insetPixels"
+               }
+            },
+            "LabelStyle": {
+               "scale": "1.1"
+            },
+            "BalloonStyle": {
+               "text": {
+                  "__cdata": "<h3>$[name]</h3>"
+               }
+            },
+            "_id": "icon-22-nodesc-highlight"
+         }
+      ],
+      "StyleMap": [
+         {
+            "Pair": [
+               {
+                  "key": "normal",
+                  "styleUrl": "#icon-22-normal"
+               },
+               {
+                  "key": "highlight",
+                  "styleUrl": "#icon-22-highlight"
+               }
+            ],
+            "_id": "icon-22"
+         },
+         {
+            "Pair": [
+               {
+                  "key": "normal",
+                  "styleUrl": "#icon-22-nodesc-normal"
+               },
+               {
+                  "key": "highlight",
+                  "styleUrl": "#icon-22-nodesc-highlight"
+               }
+            ],
+            "_id": "icon-22-nodesc"
+         }
+      ],
+      "Folder": {
+         "name": "Untitled layer",
+         "Placemark": [
+            {
+               "name": "Geary - 142 NW 1st St - T121",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.317927,35.631781,0"
+               }
+            },
+            {
+               "name": "Geary - 156 NW 1st St - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.318303,35.63182,0"
+               }
+            },
+            {
+               "name": "Hooker - Water Tower - Model 5",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-101.213565,36.858163,0"
+               }
+            },
+            {
+               "name": "Hooker - Between Memorial Dr and Pershing St - SD10",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-101.223371,36.863862,0"
+               }
+            },
+            {
+               "name": "Hooker - Panhandle and Clara St - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-101.2129,36.86309,0"
+               }
+            },
+            {
+               "name": "Perry - Along I-35 - SD10",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.325649,36.275262,0"
+               }
+            },
+            {
+               "name": "Kingfisher - 172 W Miles Ave - RSH10",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.933572,35.862231,0"
+               }
+            },
+            {
+               "name": "Kingfisher - Robberts and 6th - Model 2",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.931324,35.864496,0"
+               }
+            },
+            {
+               "name": "Kingfisher - 13th and Chisholm - 1000T",
+               "description": "Credit to Ian Murr (murrfarms on YT) for the location.",
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-97.940656,35.844591,0"
+               }
+            },
+            {
+               "name": "Mooreland- City Hall - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-99.204258,36.438694,0"
+               }
+            },
+            {
+               "name": "Okarche - 258 N 5th St - T128",
+               "description": "*Has replaced a mystery siren!",
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-97.979792,35.72781,0"
+               }
+            },
+            {
+               "name": "Calumet - Water Tower - MARS!!!",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.119433,35.600426,0"
+               }
+            },
+            {
+               "name": "Dover - 150 Chisholm Ave - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.910982,35.981548,0"
+               }
+            },
+            {
+               "name": "Buffalo - 176 NW 1st St - 1000/T",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-99.630858,36.836209,0"
+               }
+            },
+            {
+               "name": "Fort Supply - Broadway Ave FD - 10V",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-99.574923,36.57338,0"
+               }
+            },
+            {
+               "name": "Fort Supply - 440 Custer Ave - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-99.570937,36.571389,0"
+               }
+            },
+            {
+               "name": "Fort Supply - Fort Supply - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-99.555144,36.569925,0"
+               }
+            },
+            {
+               "name": "Woodward - 1144 34th St - 1000/T",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-99.426216,36.434922,0"
+               }
+            },
+            {
+               "name": "Woodward - 1300 21st St - 1000/T",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-99.405724,36.43285,0"
+               }
+            },
+            {
+               "name": "Woodward - Williams Rd and Park Rd - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-99.388354,36.422836,0"
+               }
+            },
+            {
+               "name": "Woodward - OK-34 near Trailer Villa - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-99.366639,36.400854,0"
+               }
+            },
+            {
+               "name": "Between Seiling and Woodward, OK - U.S. 270 - STH-10",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.994788,36.182909,0"
+               }
+            },
+            {
+               "name": "Seiling, OK - Main and US 281 - Sterling M",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.924493,36.152517,0"
+               }
+            },
+            {
+               "name": "Seiling, OK - 419 S Main St - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.925136,36.146062,0"
+               }
+            },
+            {
+               "name": "Thomas, OK - Between 4th and 5th St, S of Broadway - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.743068,35.743438,0"
+               }
+            },
+            {
+               "name": "Thomas, OK -  Missouri Ave and Frisco St - 16V1T-B",
+               "description": "New install, not on map",
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-98.748491,35.742624,0"
+               }
+            },
+            {
+               "name": "Thomas, OK - Between 11th St and 10th St, S of Broadway - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.750884,35.743399,0"
+               }
+            },
+            {
+               "name": "Thomas, OK - 162 E Broadway Ave - Sterling?",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.74737,35.743787,0"
+               }
+            },
+            {
+               "name": "Watonga, OK - Weigle Ave Fire Dept. - STH-10",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.412008,35.845852,0"
+               }
+            },
+            {
+               "name": "Cherokee Trading Post, OK - E1020 Rd E of US 281 - T-121",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.23597,35.53636,0"
+               }
+            },
+            {
+               "name": "El Reno, OK - 356 SW 27th St - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.957363,35.507741,0"
+               }
+            },
+            {
+               "name": "El Reno, OK - Smith Rd and Estate Dr - T-128",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.976439,35.507859,0"
+               }
+            },
+            {
+               "name": "Blanchard, OK - 136 N Monroe Ave - 16V1T-B",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.659279,35.137164,0"
+               }
+            },
+            {
+               "name": "Mountain View, OK - 364 Main St - 1000/T",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.747279,35.097326,0"
+               }
+            },
+            {
+               "name": "Beggs, OK - 2nd St  OK-16 - Allertor",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-96.050972,35.740991,0"
+               }
+            },
+            {
+               "name": "Bixby, OK - 131st Pl and 83rd Ave - T-128",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-95.885727,35.971677,0"
+               }
+            },
+            {
+               "name": "Okmulgee, OK - US-75 and Gun club Rd - 7VH",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-95.963055,35.653456,0"
+               }
+            },
+            {
+               "name": "Loyal, OK - Main St and Park Ave - 3V8H",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.118644,35.97327,0"
+               }
+            },
+            {
+               "name": "Vici, OK - 7th St and Holmes Ave - 10V",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-99.299508,36.150528,0"
+               }
+            },
+            {
+               "name": "Carmen, OK - Main and 5th - Mystery! OOOoooOooOoOoO!",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.459575,36.578782,0"
+               }
+            },
+            {
+               "name": "Waynoka, OK - Broadway and Main - SD-10",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.879651,36.585902,0"
+               }
+            },
+            {
+               "name": "Taloga, OK - Broadway and Noble - STH-10",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.963653,36.040285,0"
+               }
+            },
+            {
+               "name": "Leedey, OK - Dewey and 7th - 2001-DC",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-99.340653,35.866443,0"
+               }
+            },
+            {
+               "name": "Arapaho, OK - 12th and B - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.966619,35.578125,0"
+               }
+            },
+            {
+               "name": "Clinton, OK - 13th and Littell - Mystery! OoOOooO!",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.975514,35.52139,0"
+               }
+            },
+            {
+               "name": "Piedmont, OK - Jackson and Piedmont - FD5",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.745458,35.642724,0"
+               }
+            },
+            {
+               "name": "Wakoumis - Cherokee and 3rd - T-128",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.900398,36.282159,0"
+               }
+            },
+            {
+               "name": "Beaver, OK - 7th and H - Model 5",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-100.525428,36.810582,0"
+               }
+            },
+            {
+               "name": "Forgan, OK - Ohio and Main - 10V",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-100.538313,36.907087,0"
+               }
+            },
+            {
+               "name": "Granite, OK - Parker and Main - 1000/T",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-99.380565,34.961891,0"
+               }
+            },
+            {
+               "name": "Cashion - Euclid and Buena Vista - T128",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.673634,35.797827,0"
+               }
+            },
+            {
+               "name": "Tecumseh - Washington and 5th - Sterling M",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-96.937442,35.258091,0"
+               }
+            },
+            {
+               "name": "Shawnee - I-40 and Kickapoo - T128",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-96.929401,35.382656,0"
+               }
+            },
+            {
+               "name": "Okemah -  I40 and OK27 - 3T22",
+               "description": {
+                  "__cdata": "Imported from Stillwater, Oklahoma's old system."
+               },
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-96.306292,35.420155,0"
+               }
+            },
+            {
+               "name": "Henryetta - 4th and Broadway - 4004/Vortex",
+               "description": "Assuming new.",
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-95.986326,35.439056,0"
+               }
+            },
+            {
+               "name": "Dewar- 5th and Broadway - Vortex/4004",
+               "description": {
+                  "__cdata": "Assuming new. Darley 5's replacement possibly."
+               },
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-95.941388,35.458861,0"
+               }
+            },
+            {
+               "name": "Dewar - Broadway and 6th - Darley 5",
+               "description": "unknown if still in use.",
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-95.941388,35.458708,0"
+               }
+            },
+            {
+               "name": "Picher - Carl Patterson and Columbus - 10V2T",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-94.831656,36.983778,0"
+               }
+            },
+            {
+               "name": "Commerce - A and Quincy - 3V8H",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-94.875162,36.932759,0"
+               }
+            },
+            {
+               "name": "Weleetka - Main and Seminole - 7v8?",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-96.136283,35.335906,0"
+               }
+            },
+            {
+               "name": "Anadarko - Central and 2nd - Mystery",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.244928,35.071953,0"
+               }
+            },
+            {
+               "name": "Chandler - Thunderbird and McKinley - P15",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-96.886883,35.716452,0"
+               }
+            },
+            {
+               "name": "Chandler, OK - Keokuk and 14th - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-96.877066,35.696057,0"
+               }
+            },
+            {
+               "name": "Chandler - US66 and Industrial - RSH-10",
+               "description": "New install? Not on map?",
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-96.840781,35.711517,0"
+               }
+            },
+            {
+               "name": "Wellston - 2nd and Cedar - 7VH",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.06511,35.694912,0"
+               }
+            },
+            {
+               "name": "Wellston - Cedar and 2nd - 2T22",
+               "description": "Possibly replaced by a 7VH nearby",
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-97.064273,35.694058,0"
+               }
+            },
+            {
+               "name": "Wellston - Key Dr and Rt 66 - Sentry?",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.057536,35.684991,0"
+               }
+            },
+            {
+               "name": "Tuttle - Main and 2nd - Sterling M",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.809708,35.290447,0"
+               }
+            },
+            {
+               "name": "Tuttle - Main and 2nd - T128",
+               "description": "Possibly replaced a Sterling M nearby",
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-97.809734,35.290407,0"
+               }
+            },
+            {
+               "name": "Union City - Division and Elm - 16V1T-B",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.940471,35.39212,0"
+               }
+            },
+            {
+               "name": "Amber - Holly and Main - 1000/T",
+               "description": "Very Low!",
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-97.877406,35.160582,0"
+               }
+            },
+            {
+               "name": "Sterling - Main and 3rd - Mystery",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.173093,34.749846,0"
+               }
+            },
+            {
+               "name": "Tuttle - Mustang Rd and Tyler Dr - T128",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.724376,35.305411,0"
+               }
+            },
+            {
+               "name": "Ninnekah - Walnut and Dell - Mystery",
+               "description": "dont bother...been trying to figure it out for hours...its 2am...street view is screwed up...on bing it looks like a whelen stack but idk im exhausted",
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-97.92147,34.948072,0"
+               }
+            },
+            {
+               "name": "Alex - Broadway and Main - Federal B",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.778653,34.917568,0"
+               }
+            },
+            {
+               "name": "Fairview - 7th and Central - Vortex/4004",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.477787,36.268437,0"
+               }
+            },
+            {
+               "name": "Okeene - Oklahoma and Main - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.317654,36.115868,0"
+               }
+            },
+            {
+               "name": "Hydro - 5th and Broadway - Mystery",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.577468,35.548709,0"
+               }
+            },
+            {
+               "name": "Hinton - Clark and Main - xxV2T",
+               "description": "Assuming new. In a farther away image, reveals a black STH-10 or something.",
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-98.357012,35.471732,0"
+               }
+            },
+            {
+               "name": "Cyril - Main and 2nd - 2001-DC",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.200484,34.896931,0"
+               }
+            },
+            {
+               "name": "Carnegie - Carnegie and Ash - Mystery",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.603851,35.106674,0"
+               }
+            },
+            {
+               "name": "Duncan - Fowler and Beech - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.975152,34.507883,0"
+               }
+            },
+            {
+               "name": "Duncan - Clayton and 29th - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.98485,34.512493,0"
+               }
+            },
+            {
+               "name": "Duncan - Park and 13th - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.964766,34.489376,0"
+               }
+            },
+            {
+               "name": "Guymon - Roosevelt and 4th - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-101.483964,36.681301,0"
+               }
+            },
+            {
+               "name": "Guymon - James and 21st - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-101.486077,36.699617,0"
+               }
+            },
+            {
+               "name": "Boise City - 1st and Logan - 3T22",
+               "description": "About 15 feet up.",
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-102.5117,36.730251,0"
+               }
+            },
+            {
+               "name": "Goodwell - Main and 2nd - T128",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-101.631507,36.593434,0"
+               }
+            },
+            {
+               "name": "Texhoma - Walnut and 2nd - RSH10",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-101.783733,36.506185,0"
+               }
+            },
+            {
+               "name": "Keyes - Monroe and 3rd - 10V",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-102.251848,36.809388,0"
+               }
+            },
+            {
+               "name": "Tyrone - Main and Florence - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-101.069788,36.955036,0"
+               }
+            },
+            {
+               "name": "Turpin - Hill and Cardinal - Vortex",
+               "description": "Classic.",
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-100.882918,36.86695,0"
+               }
+            },
+            {
+               "name": "Hardesty - Main and Broadway - 3V8",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-101.192054,36.615745,0"
+               }
+            },
+            {
+               "name": "Laverne - Ohio and 1st - Model 3",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-99.891901,36.710446,0"
+               }
+            },
+            {
+               "name": "Shattuck - Main and 5th - 3T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-99.88191,36.272636,0"
+               }
+            },
+            {
+               "name": "Arnett - Jefferson and Renfrow - MARS",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-99.768916,36.134578,0"
+               }
+            },
+            {
+               "name": "Arnett - Barnes and Washington - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-99.771872,36.133683,0"
+               }
+            },
+            {
+               "name": "Burns Flat - Webb and Woodland - 2001-DC",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-99.179834,35.349121,0"
+               }
+            },
+            {
+               "name": "Cordell - Mimosa and Market - Model 5",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.988273,35.306817,0"
+               }
+            },
+            {
+               "name": "New Cordell - 7th and West - Model 3",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.993297,35.298652,0"
+               }
+            },
+            {
+               "name": "Carter - Main and Broadway - Little Giant",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-99.505773,35.218369,0"
+               }
+            },
+            {
+               "name": "Sentinel - Washington and 4th - Model 5",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-99.174815,35.157784,0"
+               }
+            },
+            {
+               "name": "Hollis - Main and Jones - STH-10",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-99.919158,34.682461,0"
+               }
+            },
+            {
+               "name": "Snyder - 13th and E - Model 5",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.95146,34.652382,0"
+               }
+            },
+            {
+               "name": "Roosevelt - Main and Cashion - Sterling M",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-99.021637,34.851451,0"
+               }
+            },
+            {
+               "name": "Mountain Park - Parker and Spruce - Screamer",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.950454,34.69673,0"
+               }
+            },
+            {
+               "name": "Lindsay - 2nd and Creek - 1000/T",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.60484,34.833798,0"
+               }
+            },
+            {
+               "name": "Elmore City - E and Main - 1000/T",
+               "description": "red!!",
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-97.395864,34.622254,0"
+               }
+            },
+            {
+               "name": "Davis - 3rd and Main - STH-10",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.119235,34.504156,0"
+               }
+            },
+            {
+               "name": "Noble - Ash and 2nd - STH-10",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.395438,35.140448,0"
+               }
+            },
+            {
+               "name": "Noble - Maguire Rd and Skyridge Trail - Allertor",
+               "description": "Credit to Raymond (woodyrr) for the location.",
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-97.378896,35.132387,0"
+               }
+            },
+            {
+               "name": "Goldsby - Center and Main - P15",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.476282,35.14592,0"
+               }
+            },
+            {
+               "name": "Goldsby - I35 and Ladd Rd - 1003",
+               "description": {
+                  "__cdata": "Newly recycled.<br>Credit to Raymond (woodyrr) for the location."
+               },
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-97.442172,35.116506,0"
+               }
+            },
+            {
+               "name": "Goldsby - DJP Airport - 1000/T",
+               "description": "Credit to Raymond (woodyrr) for exact location.",
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-97.472489,35.160424,0"
+               }
+            },
+            {
+               "name": "Prague - Klabzula and Main - Allertor",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-96.684765,35.48705,0"
+               }
+            },
+            {
+               "name": "Drumright - Broadway and Morrow - Little Giant",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-96.602896,35.988251,0"
+               }
+            },
+            {
+               "name": "Hennessey - Main and 2nd - 1000/T",
+               "description": {
+                  "__cdata": "Silver; tower mounted. I don't see many water tower mounted 'Bolts."
+               },
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-97.898872,36.106962,0"
+               }
+            },
+            {
+               "name": "Hennessey - about 1200blk S Main St - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.899207,36.095359,0"
+               }
+            },
+            {
+               "name": "Braman - 3rd and Main - 2T22",
+               "description": "Darley Champ? on top of FD.",
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-97.335101,36.924605,0"
+               }
+            },
+            {
+               "name": "Tonkawa - 7th and Oklahoma - SD-10",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.308486,36.675761,0"
+               }
+            },
+            {
+               "name": "Newkirk - 7th and Maple - Cyclone",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.054381,36.882229,0"
+               }
+            },
+            {
+               "name": "McCord - US60 and Victory St - Model 2",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.036566,36.680698,0"
+               }
+            },
+            {
+               "name": "Medford - Guthrie and Main - STH-10",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.734643,36.80822,0"
+               }
+            },
+            {
+               "name": "Skiatook - Broadway and 3rd - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-95.998208,36.367952,0"
+               }
+            },
+            {
+               "name": "Grove - 3rd and Hazel - SD-10",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-94.76856,36.593767,0"
+               }
+            },
+            {
+               "name": "Indiahoma - Showplace and Asepna - Model 5",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.75086,34.619658,0"
+               }
+            },
+            {
+               "name": "Goltry - Main and Burns - 10V",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.152864,36.532778,0"
+               }
+            },
+            {
+               "name": "Carrier - Main and Broadway - 2001-SRN",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-98.021704,36.475868,0"
+               }
+            },
+            {
+               "name": "Ringwood - Main and 2nd - T-121",
+               "description": {
+                  "__cdata": "Possibly a nearby STH's replacement."
+               },
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-98.246055,36.378683,0"
+               }
+            },
+            {
+               "name": "Covington - Main and 2nd - SD-10",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.587261,36.305338,0"
+               }
+            },
+            {
+               "name": "Ochelata - Ochelata and Vera - Cyclone",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-95.980607,36.599603,0"
+               }
+            },
+            {
+               "name": "Davenport - Broadway and 8th - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-96.764378,35.711783,0"
+               }
+            },
+            {
+               "name": "Davenport - Broadway and 2nd - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-96.764553,35.70489,0"
+               }
+            },
+            {
+               "name": "Purcell - Brule and Lester - Modulator",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.365005,35.010207,0"
+               }
+            },
+            {
+               "name": "Purcell - Along I-35 - Modulator",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.375324,35.023144,0"
+               }
+            },
+            {
+               "name": "Purcell - Pybas and Marland - Modulator",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.370203,34.990943,0"
+               }
+            },
+            {
+               "name": "Falls Creek - T-128",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.109925,34.423523,0"
+               }
+            },
+            {
+               "name": "Lexington - Broadway and 4th - 2001-130",
+               "description": "Credit to Raymond (woodyrr) for the location.",
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-97.342185,35.01504,0"
+               }
+            },
+            {
+               "name": "Lexington - Almond and 1st - 2001-130",
+               "description": {
+                  "__cdata": "Credit to Raymond (woodyrr) for the location.<br>Freaky looking SD-10B on streetview nearby!"
+               },
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-97.333964,35.013751,0"
+               }
+            },
+            {
+               "name": "Lexington - 6th and Almond - 2001-130",
+               "description": "Credit to Raymond (woodyrr) for the location.",
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-97.326465,35.013601,0"
+               }
+            },
+            {
+               "name": "Paoli - Davis and McCrummen - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.263347,34.825527,0"
+               }
+            },
+            {
+               "name": "Holdenville - Main and Echo - Sterling M",
+               "description": "Credit to Rhett (Allertor113)",
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-96.402433,35.084026,0"
+               }
+            },
+            {
+               "name": "Harrah - Tom Holt and Main - Banshee",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.16337,35.487384,0"
+               }
+            },
+            {
+               "name": "Gene Autry - Prairie and Grand - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.040852,34.281874,0"
+               }
+            },
+            {
+               "name": "Sasakwa - Olive and 3rd - Model 5",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-96.525686,34.947513,0"
+               }
+            },
+            {
+               "name": "Eufaula - Foley and 1st - 2001",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-95.584327,35.287101,0"
+               }
+            },
+            {
+               "name": "Roff - 9th and Frisco - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-96.841661,34.626657,0"
+               }
+            },
+            {
+               "name": "Ringling - 5th and Main - P-15",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.593184,34.179288,0"
+               }
+            },
+            {
+               "name": "Ryan - Washington and 7th - SD-10",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.956746,34.021515,0"
+               }
+            },
+            {
+               "name": "Lexington - 3rd and Ash - Screamer",
+               "description": "Unknown if still in use.",
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-97.340423,35.015469,0"
+               }
+            },
+            {
+               "name": "Lexington - 1st and Broadway - SD10B",
+               "description": "Unknown if still in use.",
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-97.333503,35.014335,0"
+               }
+            },
+            {
+               "name": "Checotah - Gentry Ave near Hwy 69 - STH-10",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-95.53344,35.474196,0"
+               }
+            },
+            {
+               "name": "Wynnewood - Creek near Kerr - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.154492,34.646193,0"
+               }
+            },
+            {
+               "name": "Blanchard - 300th and Hunt Club - 7V8-B",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.637907,35.145762,0"
+               }
+            },
+            {
+               "name": "Wakita - Pawnee and Elm - Sterling M",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.920274,36.882659,0"
+               }
+            },
+            {
+               "name": "Thackerville - Cemetery and US77 - 5V",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.142932,33.795042,0"
+               }
+            },
+            {
+               "name": "Cornish - 7th and Lincoln - Mystery",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.59645,34.161055,0"
+               }
+            },
+            {
+               "name": "Wilson - Main and 8th - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.424853,34.161734,0"
+               }
+            },
+            {
+               "name": "Healdton - Franklin and 3rd - Model 5",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.48714,34.233732,0"
+               }
+            },
+            {
+               "name": "Perkins - Main and Thomas - Sterling M",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.033294,35.974533,0"
+               }
+            },
+            {
+               "name": "Coyle - Asp and Lincoln - 1000/T",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.237474,35.952754,0"
+               }
+            },
+            {
+               "name": "Langston - Bond and Cumsy - 1000/T",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.25684,35.941029,0"
+               }
+            },
+            {
+               "name": "Carney - Main and Flynn - Model 5/7",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.01197,35.808626,0"
+               }
+            },
+            {
+               "name": "Agra - Main and Roosevelt - Thunderbeam",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-96.872538,35.894669,0"
+               }
+            },
+            {
+               "name": "Ripley - Broad and Morton - 5V",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-96.905985,36.017804,0"
+               }
+            },
+            {
+               "name": "Glencoe - Main and Broadway - 2T22?",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-96.929926,36.22815,0"
+               }
+            },
+            {
+               "name": "Morrison - Railroad and 4th - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.008773,36.295723,0"
+               }
+            },
+            {
+               "name": "Lucien - OK164 and 4th - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.454621,36.276092,0"
+               }
+            },
+            {
+               "name": "Crescent - Hickory and Monroe - Screamer/STH-10",
+               "description": "Federal B? on Water tower",
+               "styleUrl": "#icon-22",
+               "Point": {
+                  "coordinates": "-97.596477,35.952971,0"
+               }
+            },
+            {
+               "name": "Lamont - Madison and US60 - DSA",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.557349,36.691147,0"
+               }
+            },
+            {
+               "name": "Billings - Central and Graves - Sterling M",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.444332,36.52795,0"
+               }
+            },
+            {
+               "name": "Marland - Main and 3rd - Eclipse 8",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.151397,36.560084,0"
+               }
+            },
+            {
+               "name": "Chelsea - 6th and Walnut - SD10",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-95.429601,36.533735,0"
+               }
+            },
+            {
+               "name": "Oologah - Maple and 400 Rd - Banshee",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-95.710906,36.438014,0"
+               }
+            },
+            {
+               "name": "Welch - Commercial and 3rd - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-95.094577,36.875342,0"
+               }
+            },
+            {
+               "name": "Bluejacket - 3rd and Main - 2804",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-95.071467,36.799728,0"
+               }
+            },
+            {
+               "name": "Farland - Railway and Smith - 2T22",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-94.848125,36.749837,0"
+               }
+            },
+            {
+               "name": "Jay - Main and 5th - Model 5",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-94.79668,36.420872,0"
+               }
+            },
+            {
+               "name": "Luther - 3rd and Cedar - P-15",
+               "styleUrl": "#icon-22-nodesc",
+               "Point": {
+                  "coordinates": "-97.192091,35.660269,0"
+               }
+            }
+         ]
+      }
+   },
+   "_xmlns": "http://www.opengis.net/kml/2.2"
+}
