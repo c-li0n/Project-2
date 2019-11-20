@@ -28,6 +28,7 @@ d3.json("/datasets/mapdata.json").then(function(data) {
     console.log(data[0]);
 });
 
+
 var tdata2018 = mapData.filter(function (y) {
     return y.year = 2018;
 });
