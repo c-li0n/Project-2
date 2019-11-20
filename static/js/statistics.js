@@ -12,7 +12,7 @@ var $userInput = document.querySelector("#userinput");
 var $searchBtn = document.querySelector("#search");
 var $searchTypeDropDwn = document.querySelector("#dropdownMenu1");
 var $selection = document.querySelector("#selection");
-var selectType = "mm/dd/yyyy" //initial default is datetime
+var selectType = "mm/dd/yyyy" //initial default is date
 
 // get list of valid inputs
 var validDates = dataSet.map(x=>x.Date);
