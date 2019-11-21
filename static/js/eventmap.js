@@ -23,16 +23,18 @@ var streets = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?
 //     id: "mapbox.outdoors",
 //     accessToken: API_KEY
 //   }).addTo(mymap);
- 
-d3.json("/datasets/mapdata.json").then(function(data) {
+
+d3.json("/datasets/mapdata.json").then(function (data) {
     console.log(data[0]);
+    var tdata2018 = mapData.filter(function (y) {
+        return y.year = 2018;
+    });
+    console.log(tdata2018);
 });
 
-var tdata2018 = mapData.filter(function (y) {
-    return y.year = 2018;
-});
-console.log(tdata2018);
-// for ( var i=0; i < mapData.length; ++i ) 
+
+
+// for ( var i=0; i < mapData.length; ++i )
 // {
 //    L.marker( [mapData[i].TouchdownLat, mapData[i].TouchdownLon] )
 //       .bindPopup( '<a href="' + mapData[i].Damage + '" F"' + mapData[i].Fujita + '</a>' )

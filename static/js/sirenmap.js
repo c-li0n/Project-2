@@ -8,46 +8,45 @@ var streets = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?
     accessToken: API_KEY
 }).addTo(mymap)
 
-// var baseMaps = {
-//     "Streets": streets
-// };
+// var sirendata;
+d3.json("/datasets/SirensDictionaries.json").then(function (sirendata) {
+    // sirendata = data;
+    let markers2 = L.markerClusterGroup();
 
-// var overlayMaps = {
-//     "States": states
-// };
+    sirendata[0].Folder.Placemark.forEach(row => {
+        if ("Point" in row) {
+            var coord = row.Point.coordinates.split(",");
+            markers2.addLayer(L.marker([parseFloat(coord[1]), parseFloat(coord[0])]));
+        }
+        if ("Polygon" in row) {
+            row.Polygon.outerBoundaryIs.LinearRing.coordinates.split("\n").forEach(
+                thing => {
+                    var coord3 = thing.split(",");
+                    markers2.addLayer(L.marker([parseFloat(coord3[1]), parseFloat(coord3[0])]));
+                }
+            );
 
-// L.control.layers(baseMaps, overlayMaps).addTo(tmap);
-
-// var outdoor = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}", {
-//     maxZoom: 18,
-//     id: "mapbox.outdoors",
-//     accessToken: API_KEY
-//   }).addTo(mymap);
- 
-d3.json("/datasets/mapdata.json").then(function(data) {
-    console.log(data[0]);
+        }
+    });
+    mymap.addLayer(markers2);
 });
 
 
-var tdata2018 = mapData.filter(function (y) {
-    return y.year = 2018;
-});
-console.log(tdata2018);
-// for ( var i=0; i < mapData.length; ++i ) 
-// {
-//    L.marker( [mapData[i].TouchdownLat, mapData[i].TouchdownLon] )
-//       .bindPopup( '<a href="' + mapData[i].Damage + '" F"' + mapData[i].Fujita + '</a>' )
-//       .addTo(mymap);
-// }
-// Set filteredAddresses to addressData initially
-// var filteredMapdata = mapData;
-// var inputyear = d3.select($userInput)
+// // var sirendata;
+// d3.json("/datasets/SirensDictionaries.json").then(function (sirendata2) {
+//     // sirendata = data;
+//     let markers2 = L.markerClusterGroup();
 
-// console.log("set the placeholder");
-// inputyear.attr("placeholder",selectType)
-// inputyear.value='';
-// var mapData = JSON.parse(mapdata);
-// alert(mapData[0].name);
-// alert(mapData[0].age);
-// alert(mapData[1].name);
-// alert(mapData[1].age);
+//     sirendata2[0].Folder.Placemark.forEach(row => {
+//         if ("Polygon" in row) {
+//             row.Polygon.outerBoundaryIs.LinearRing.coordinates.split("\n").forEach(
+//                 thing => {
+//                     var coord3 = thing.split(",");
+//                     markers2.addLayer(L.marker([parseFloat(coord3[1]), parseFloat(coord3[0])]));
+//                 }
+//             );
+
+//         }
+//     });
+//     mymap.addLayer(markers2);
+// });
