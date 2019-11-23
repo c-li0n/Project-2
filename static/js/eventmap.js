@@ -68,7 +68,7 @@ d3.json("/datasets/mapdata.json").then (function (data) {
           {color: "blue",
           fillcolor: "lightblue",
           fillOpacity: 0.50,
-          radius: width * 25})
+          radius: width * 30})
           .bindPopup("On " + tdata[i].Date + " an F" + tdata[i].Fujita +  " Tornado <br>" + tdata[i].Width + " yards wide, caused <br>" + tdata[i].Damage + " in damages.")
           .addTo(mymap);
             this.mapMarkers.push(markers)};
