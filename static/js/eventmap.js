@@ -54,12 +54,12 @@ function clicked() {
 d3.json("/datasets/mapdata.json").then (function (data) {
     console.log(data[0]);
 
-    for (var i = 0; i < this.mapMarkers.length; i++){
-      this.mymap.removeLayer(this.mapMarkers[i]);
-    }   
     var tdata = data.filter(function (y){
         return y.Year === inputvalue;
       });
+      for (var i = 0; i < this.mapMarkers.length; i++){
+        this.mymap.removeLayer(this.mapMarkers[i]);
+      };
 
     console.error(tdata[0]);
     for (var i = 0; i < tdata.length; ++i) {
@@ -70,8 +70,9 @@ d3.json("/datasets/mapdata.json").then (function (data) {
           fillOpacity: 0.50,
           radius: width * 25})
           .bindPopup("On " + tdata[i].Date + " an F" + tdata[i].Fujita +  " Tornado <br>" + tdata[i].Width + " yards wide, caused <br>" + tdata[i].Damage + " in damages.")
-          .addTo(mymap)};
-            this.mapMarkers.push(markers);
+          .addTo(mymap);
+            this.mapMarkers.push(markers)};
+            
   });
 };
 
