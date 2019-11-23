@@ -1,2 +1,2 @@
-# Project-2
-A correlative representation between the distance of tornado sirens vs quantity of human death and injury
+# Project2Flask
+Adapt Project 2 to use Flask and SQLite
