@@ -4,12 +4,12 @@
   
   /* Left and right column */
   .column.side {
-    width: 10%;
+    width: 5%;
   }
   
   /* Middle column */
   .column.middle {
-    width: 80%;
+    width: 90%;
   }
   
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
@@ -19,4 +19,4 @@
     }
   }
 
-  #mapid { height: 600px; }
+  #mapid { height: 700px; }

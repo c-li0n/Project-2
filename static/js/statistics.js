@@ -19,7 +19,7 @@ var validDates = dataSet.map(x=>x.Date);
 var validCounties = dataSet.map(x=>x.County)
 var validStates = dataSet.map(x=>x.State)
 var validFujita = dataSet.map(x=>x.Fujita)
-var validFatlities = dataSet.map(x=>x.Fatalities)
+var validFatalities = dataSet.map(x=>x.Fatalities)
 
 //get pagination buttons
 var lastPage = Math.ceil(filteredTordata.length / searchResultCount);
@@ -360,7 +360,7 @@ function validate(inputText)
     if (selectType == "Enter County") {
       return(validCounties.find(function(element){return element===inputValue;})) }
     else if (selectType == "Enter Fatalities"){
-      return(validFatalites.find(function(element){return element===inputValue;})) } 
+      return(validFatalities.find(function(element){return element===inputValue;})) } 
     else if (selectType == "Enter Fujita"){
       return(validFujita.find(function(element){return element===inputValue;})) } 
   }

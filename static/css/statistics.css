@@ -1,4 +1,13 @@
-.navbar-brand{
+.column {
+    float: center;
+    width: auto;
+    padding: 10px;
+}
+
+span.code {
+    padding: 0 2px;
+  }
+/* .navbar-brand{
     background-color:rgb(153, 204, 255);
     color:rgb(0, 0, 0); 
-}
+} */
